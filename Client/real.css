@@ -1,0 +1,38 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+h1{
+    font-size: 5em;
+    color: white;
+}
+div{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+.container{
+    height: 40px;
+    width: 100%;
+    background-color: brown;
+    display: flex;
+}
+nav{
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    overflow: hidden;
+}
+button{
+    cursor: pointer;
+    margin-right: 2em;
+    border: 2px solid black;
+    overflow: hidden;
+
+}
